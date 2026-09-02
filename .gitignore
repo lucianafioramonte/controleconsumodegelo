@@ -1,0 +1,21 @@
+﻿# Dados operacionais - nunca versionar
+*.xlsx
+*.xls
+*.csv
+
+# Saida gerada pelo script - nao versionar (é gerada a cada rodada)
+Torre_Controle_Gelo.html
+
+# Logs
+log_atualizacao.txt
+*.log
+
+# Segredos - NUNCA versionar
+.env
+token.txt
+*.pat
+github_token*
+
+# Python
+__pycache__/
+*.pyc
