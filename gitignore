@@ -1,0 +1,20 @@
+# Dados operacionais - nunca versionar
+*.xlsx
+*.xls
+*.csv
+
+# index.html É publicado no GitHub Pages - não ignorar (é o painel)
+
+# Logs
+log_atualizacao.txt
+*.log
+
+# Segredos - NUNCA versionar
+.env
+token.txt
+*.pat
+github_token*
+
+# Python
+__pycache__/
+*.pyc
